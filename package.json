@@ -1,0 +1,17 @@
+{
+  "name": "big",
+  "version": "1.0.0",
+  "author": "deeruby",
+  "description": "simulate Big",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
