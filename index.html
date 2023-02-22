@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Big.js</title>
-  <script src="./big.js"></script>
+  <title>Big</title>
 </head>
 <body>
+  <script src="./dist/index.js"></script>
   <script>
-    const num = Big(341).div(26);
+    const Big = big;
+    const num = new Big(0.1).add(0.2).valueOf();
     console.log(num);
   </script>
 </body>
